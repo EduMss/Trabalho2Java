@@ -5,6 +5,10 @@ public class Exercicio3 {
         String numInvertido = "";
         boolean negativo = numero < 0;
 
+        if (negativo == true) {
+            numTexto = Integer.toString(Integer.parseInt(numTexto) * -1);
+        }
+
         //enquanto a variavel "numTexto" tiver mais q 0 caractere rodar o loop
         while(numTexto.length() > 0){
             //aqui ele pega o ultimo caractere do "numTexto" que nesse caso e o numero ultimo numero.
@@ -30,7 +34,7 @@ public class Exercicio3 {
     }
 
     public static void main(String[] args) {
-        System.out.println(palindromo(311)?"É UM PALÍNDROMO":"NÃO É UM PALÍNDROMO");
+        System.out.println(palindromo(-211)?"É UM PALÍNDROMO":"NÃO É UM PALÍNDROMO");
         
 
     }

@@ -29,7 +29,7 @@ public class Exercicio1 {
         return limite;
     }
     public static void main(String[] args) {
-        int num = 6;
+        int num = 2;
         
         int[] nums= VetoresPrimos(num);
         for (int i = 0; i < nums.length; i++) {
